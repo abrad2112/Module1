@@ -7,11 +7,11 @@ BEGIN
   DECLARE city AS STRING
   DECLARE zipCode AS STRING
 
-  SET firstName = "John"
-  SET lastName = "Doe"
-  SET streetAddress = "1234 Elm Street"
-  SET city = "Springfield"
-  SET zipCode = "62704"
+  SET firstName = "Alex"
+  SET lastName = "Bradley"
+  SET streetAddress = "1234 Main Street"
+  SET city = "Denver"
+  SET zipCode = "80120"
 
   PRINT firstName
   PRINT lastName
@@ -22,11 +22,11 @@ END
 public class PersonInfo {
     public static void main(String[] args) {
         // Declare and initialize variables
-        String firstName = "John";
-        String lastName = "Doe";
-        String streetAddress = "1234 Elm Street";
-        String city = "Springfield";
-        String zipCode = "62704";
+        String firstName = "Alex";
+        String lastName = "Bradley";
+        String streetAddress = "1234 Main Street";
+        String city = "Denver";
+        String zipCode = "80120";
 
         // Print each item on a new line
         System.out.println(firstName);
